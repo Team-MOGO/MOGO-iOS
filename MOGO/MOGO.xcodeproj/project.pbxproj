@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6EFF0B5D2C67A1EC00DB80DC /* Rambla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EFF0B5C2C67A1EC00DB80DC /* Rambla-Bold.ttf */; };
 		6EFF0B5F2C67A1FF00DB80DC /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF0B5E2C67A1FF00DB80DC /* ResultView.swift */; };
 		6EFF0B612C67BC5F00DB80DC /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6EFF0B602C67BC5F00DB80DC /* Pretendard-Medium.otf */; };
 		6EFF0B632C67BC8D00DB80DC /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6EFF0B622C67BC8D00DB80DC /* Pretendard-Regular.otf */; };
@@ -32,10 +31,11 @@
 		F3B26FD92C677CDF007CAB21 /* CustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FD82C677CDF007CAB21 /* CustomPicker.swift */; };
 		F3B26FDB2C6791B1007CAB21 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FDA2C6791B1007CAB21 /* MainView.swift */; };
 		F3B26FDF2C679A82007CAB21 /* StoreKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FDE2C679A82007CAB21 /* StoreKey.swift */; };
-		F3B26FE32C67B2D5007CAB21 /* PregnantState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FE22C67B2D5007CAB21 /* PregnantState.swift */; };
+		F3B26FE32C67B2D5007CAB21 /* BabyViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FE22C67B2D5007CAB21 /* BabyViewState.swift */; };
 		F3B26FE52C67B5D9007CAB21 /* Urbanist-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3B26FE42C67B5C0007CAB21 /* Urbanist-Medium.ttf */; };
-		F3B26FE62C67B5D9007CAB21 /* Rambla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3B26FE12C67A21C007CAB21 /* Rambla-Bold.ttf */; };
 		F3B26FE82C67D3A4007CAB21 /* BabyTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FE72C67D3A4007CAB21 /* BabyTalk.swift */; };
+		F3B26FEA2C67F357007CAB21 /* Rambla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3B26FE12C67A21C007CAB21 /* Rambla-Bold.ttf */; };
+		F3B26FEC2C67F522007CAB21 /* PregnantState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FEB2C67F522007CAB21 /* PregnantState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,9 +67,10 @@
 		F3B26FDA2C6791B1007CAB21 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F3B26FDE2C679A82007CAB21 /* StoreKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKey.swift; sourceTree = "<group>"; };
 		F3B26FE12C67A21C007CAB21 /* Rambla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rambla-Bold.ttf"; sourceTree = "<group>"; };
-		F3B26FE22C67B2D5007CAB21 /* PregnantState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PregnantState.swift; sourceTree = "<group>"; };
+		F3B26FE22C67B2D5007CAB21 /* BabyViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyViewState.swift; sourceTree = "<group>"; };
 		F3B26FE42C67B5C0007CAB21 /* Urbanist-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Medium.ttf"; sourceTree = "<group>"; };
 		F3B26FE72C67D3A4007CAB21 /* BabyTalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyTalk.swift; sourceTree = "<group>"; };
+		F3B26FEB2C67F522007CAB21 /* PregnantState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PregnantState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +89,7 @@
 			children = (
 				F3B26F982C65ED10007CAB21 /* MOGO */,
 				F3B26F972C65ED10007CAB21 /* Products */,
+				F3B26FE92C67F319007CAB21 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,10 +137,10 @@
 			isa = PBXGroup;
 			children = (
 				F3B26FAC2C65F6DF007CAB21 /* MogoModel.swift */,
-				F3B26FE22C67B2D5007CAB21 /* PregnantState.swift */,
+				F3B26FE22C67B2D5007CAB21 /* BabyViewState.swift */,
 				F3B26FE72C67D3A4007CAB21 /* BabyTalk.swift */,
-				F3B26FCF2C675136007CAB21 /* ProgressState.swift */,
 				6EFF0B682C67CCCF00DB80DC /* ResultItem.swift */,
+				F3B26FEB2C67F522007CAB21 /* PregnantState.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -232,6 +234,14 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
+		F3B26FE92C67F319007CAB21 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				6EFF0B5C2C67A1EC00DB80DC /* Rambla-Bold.ttf */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -290,12 +300,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B26FEA2C67F357007CAB21 /* Rambla-Bold.ttf in Resources */,
 				F3B26FE52C67B5D9007CAB21 /* Urbanist-Medium.ttf in Resources */,
 				F3B26FD62C677A0E007CAB21 /* Urbanist-Bold.ttf in Resources */,
 				6EFF0B652C67BCF500DB80DC /* Pretendard-Light.otf in Resources */,
 				F3B26FD72C677A0E007CAB21 /* Urbanist-SemiBold.ttf in Resources */,
 				F3B26FA12C65ED11007CAB21 /* Preview Assets.xcassets in Resources */,
-				6EFF0B5D2C67A1EC00DB80DC /* Rambla-Bold.ttf in Resources */,
 				6EFF0B632C67BC8D00DB80DC /* Pretendard-Regular.otf in Resources */,
 				F3B26F9E2C65ED11007CAB21 /* Assets.xcassets in Resources */,
 				6EFF0B672C67C2D700DB80DC /* Pretendard-Bold.otf in Resources */,
@@ -325,7 +335,8 @@
 				F3B26FC52C6726C6007CAB21 /* Readable.swift in Sources */,
 				F3B26FBE2C65F950007CAB21 /* View+MogoFont.swift in Sources */,
 				F3B26FAD2C65F6DF007CAB21 /* MogoModel.swift in Sources */,
-				F3B26FE32C67B2D5007CAB21 /* PregnantState.swift in Sources */,
+				F3B26FE32C67B2D5007CAB21 /* BabyViewState.swift in Sources */,
+				F3B26FEC2C67F522007CAB21 /* PregnantState.swift in Sources */,
 				6EFF0B692C67CCCF00DB80DC /* ResultItem.swift in Sources */,
 				F3B26FCC2C6750CC007CAB21 /* OnBoardingView.swift in Sources */,
 			);
