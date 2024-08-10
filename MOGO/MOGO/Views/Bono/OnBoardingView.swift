@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct OnBoardingView: View {
+  @Binding var isConfirm: Bool
   @State var selectedWeek: String = "0"
   @State var selectedDay: String = "0"
   
@@ -37,12 +38,12 @@ struct OnBoardingView: View {
           .frame(width: 140)
         }
         VStack(spacing: 15) {
-          Text("Day")
+          Text("Days")
             .mogoFont(.urbanistSemiBold18)
             .foregroundStyle(.mogoGray1)
           
           CustomPicker(
-            data: (0..<40).map{ String($0) },
+            data: (0..<8).map{ String($0) },
             selection: $selectedDay
           )
           .frame(width: 140)
@@ -54,7 +55,10 @@ struct OnBoardingView: View {
       
       Button(
         action: {
+          let fullDays = (Int(selectedWeek) ?? 0) * 7 + (Int(selectedDay) ?? 0)
           
+          UserDefaults().set(fullDays, forKey: StoreKey.pregnantDays)
+          isConfirm = true
         },
         label: {
           RoundedRectangle(cornerRadius: 30)
@@ -63,9 +67,10 @@ struct OnBoardingView: View {
             .frame(height: 52)
             .overlay {
               HStack {
-                Text("Continue")
+                Text("Get Started")
                   .mogoFont(.urbanistBold18)
                   .foregroundStyle(.white)
+                
                 Image(systemName: "arrow.forward")
                   .resizable()
                   .bold()
@@ -85,5 +90,5 @@ struct OnBoardingView: View {
 }
 
 #Preview {
-  OnBoardingView()
+  OnBoardingView(isConfirm: .constant(false))
 }

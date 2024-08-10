@@ -20,13 +20,15 @@
 		F3B26FC22C672643007CAB21 /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FC12C672643007CAB21 /* DataRepository.swift */; };
 		F3B26FC52C6726C6007CAB21 /* Readable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FC42C6726C6007CAB21 /* Readable.swift */; };
 		F3B26FCC2C6750CC007CAB21 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FCB2C6750CC007CAB21 /* OnBoardingView.swift */; };
-		F3B26FD02C675136007CAB21 /* ProgressState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FCF2C675136007CAB21 /* ProgressState.swift */; };
 		F3B26FD62C677A0E007CAB21 /* Urbanist-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3B26FD52C677923007CAB21 /* Urbanist-Bold.ttf */; };
 		F3B26FD72C677A0E007CAB21 /* Urbanist-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3B26FD42C677923007CAB21 /* Urbanist-SemiBold.ttf */; };
 		F3B26FD92C677CDF007CAB21 /* CustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FD82C677CDF007CAB21 /* CustomPicker.swift */; };
 		F3B26FDB2C6791B1007CAB21 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FDA2C6791B1007CAB21 /* MainView.swift */; };
-		F3B26FDD2C67924C007CAB21 /* Rambla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3B26FDC2C679244007CAB21 /* Rambla-Bold.ttf */; };
 		F3B26FDF2C679A82007CAB21 /* StoreKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FDE2C679A82007CAB21 /* StoreKey.swift */; };
+		F3B26FE32C67B2D5007CAB21 /* PregnantState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FE22C67B2D5007CAB21 /* PregnantState.swift */; };
+		F3B26FE52C67B5D9007CAB21 /* Urbanist-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3B26FE42C67B5C0007CAB21 /* Urbanist-Medium.ttf */; };
+		F3B26FE62C67B5D9007CAB21 /* Rambla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3B26FE12C67A21C007CAB21 /* Rambla-Bold.ttf */; };
+		F3B26FE82C67D3A4007CAB21 /* BabyTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FE72C67D3A4007CAB21 /* BabyTalk.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,14 +46,16 @@
 		F3B26FC12C672643007CAB21 /* DataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepository.swift; sourceTree = "<group>"; };
 		F3B26FC42C6726C6007CAB21 /* Readable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readable.swift; sourceTree = "<group>"; };
 		F3B26FCB2C6750CC007CAB21 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
-		F3B26FCF2C675136007CAB21 /* ProgressState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressState.swift; sourceTree = "<group>"; };
 		F3B26FD32C677839007CAB21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F3B26FD42C677923007CAB21 /* Urbanist-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-SemiBold.ttf"; sourceTree = "<group>"; };
 		F3B26FD52C677923007CAB21 /* Urbanist-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Bold.ttf"; sourceTree = "<group>"; };
 		F3B26FD82C677CDF007CAB21 /* CustomPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.swift; sourceTree = "<group>"; };
 		F3B26FDA2C6791B1007CAB21 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		F3B26FDC2C679244007CAB21 /* Rambla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rambla-Bold.ttf"; path = "../../../../../../Downloads/Rambla/Rambla-Bold.ttf"; sourceTree = "<group>"; };
 		F3B26FDE2C679A82007CAB21 /* StoreKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKey.swift; sourceTree = "<group>"; };
+		F3B26FE12C67A21C007CAB21 /* Rambla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rambla-Bold.ttf"; sourceTree = "<group>"; };
+		F3B26FE22C67B2D5007CAB21 /* PregnantState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PregnantState.swift; sourceTree = "<group>"; };
+		F3B26FE42C67B5C0007CAB21 /* Urbanist-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Medium.ttf"; sourceTree = "<group>"; };
+		F3B26FE72C67D3A4007CAB21 /* BabyTalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyTalk.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				F3B26FAC2C65F6DF007CAB21 /* MogoModel.swift */,
-				F3B26FCF2C675136007CAB21 /* ProgressState.swift */,
+				F3B26FE22C67B2D5007CAB21 /* PregnantState.swift */,
+				F3B26FE72C67D3A4007CAB21 /* BabyTalk.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -198,7 +203,8 @@
 		F3B26FD12C6776CF007CAB21 /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				F3B26FDC2C679244007CAB21 /* Rambla-Bold.ttf */,
+				F3B26FE42C67B5C0007CAB21 /* Urbanist-Medium.ttf */,
+				F3B26FE12C67A21C007CAB21 /* Rambla-Bold.ttf */,
 				F3B26FD52C677923007CAB21 /* Urbanist-Bold.ttf */,
 				F3B26FD42C677923007CAB21 /* Urbanist-SemiBold.ttf */,
 			);
@@ -263,7 +269,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3B26FDD2C67924C007CAB21 /* Rambla-Bold.ttf in Resources */,
+				F3B26FE52C67B5D9007CAB21 /* Urbanist-Medium.ttf in Resources */,
+				F3B26FE62C67B5D9007CAB21 /* Rambla-Bold.ttf in Resources */,
 				F3B26FD62C677A0E007CAB21 /* Urbanist-Bold.ttf in Resources */,
 				F3B26FD72C677A0E007CAB21 /* Urbanist-SemiBold.ttf in Resources */,
 				F3B26FA12C65ED11007CAB21 /* Preview Assets.xcassets in Resources */,
@@ -281,17 +288,18 @@
 				F3B26F9C2C65ED10007CAB21 /* ContentView.swift in Sources */,
 				F3B26FBC2C65F936007CAB21 /* ShapeStyle+Color.swift in Sources */,
 				F3B26FC22C672643007CAB21 /* DataRepository.swift in Sources */,
+				F3B26FE82C67D3A4007CAB21 /* BabyTalk.swift in Sources */,
 				F3B26F9A2C65ED10007CAB21 /* AppView.swift in Sources */,
 				F3B26FB82C65F8FB007CAB21 /* IOView.swift in Sources */,
 				F3B26FB32C65F8AC007CAB21 /* BreaView.swift in Sources */,
 				F3B26FD92C677CDF007CAB21 /* CustomPicker.swift in Sources */,
-				F3B26FD02C675136007CAB21 /* ProgressState.swift in Sources */,
 				F3B26FDB2C6791B1007CAB21 /* MainView.swift in Sources */,
 				F3B26FC02C671959007CAB21 /* BarcodeScannerView.swift in Sources */,
 				F3B26FDF2C679A82007CAB21 /* StoreKey.swift in Sources */,
 				F3B26FC52C6726C6007CAB21 /* Readable.swift in Sources */,
 				F3B26FBE2C65F950007CAB21 /* View+MogoFont.swift in Sources */,
 				F3B26FAD2C65F6DF007CAB21 /* MogoModel.swift in Sources */,
+				F3B26FE32C67B2D5007CAB21 /* PregnantState.swift in Sources */,
 				F3B26FCC2C6750CC007CAB21 /* OnBoardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,7 +457,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -484,7 +492,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

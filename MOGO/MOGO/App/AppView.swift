@@ -9,12 +9,12 @@ import SwiftUI
 
 @main
 struct AppView: App {
-  @AppStorage(StoreKey.isAppeared) var isAppeared: Bool = false
+  @State var isConfirm: Bool = false
   
   var body: some Scene {
     WindowGroup {
-      if !isAppeared {
-        OnBoardingView()
+      if !isConfirm {
+        OnBoardingView(isConfirm: $isConfirm)
       } else {
         MainView()
       }
