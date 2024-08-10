@@ -13,11 +13,20 @@
 		F3B26FA12C65ED11007CAB21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B26FA02C65ED11007CAB21 /* Preview Assets.xcassets */; };
 		F3B26FAD2C65F6DF007CAB21 /* MogoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FAC2C65F6DF007CAB21 /* MogoModel.swift */; };
 		F3B26FB32C65F8AC007CAB21 /* BreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FB22C65F8AC007CAB21 /* BreaView.swift */; };
-		F3B26FB52C65F8B7007CAB21 /* BonoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FB42C65F8B7007CAB21 /* BonoView.swift */; };
 		F3B26FB82C65F8FB007CAB21 /* IOView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FB72C65F8FB007CAB21 /* IOView.swift */; };
-		F3B26FBA2C65F905007CAB21 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FB92C65F905007CAB21 /* MockData.swift */; };
 		F3B26FBC2C65F936007CAB21 /* ShapeStyle+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FBB2C65F936007CAB21 /* ShapeStyle+Color.swift */; };
 		F3B26FBE2C65F950007CAB21 /* View+MogoFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FBD2C65F950007CAB21 /* View+MogoFont.swift */; };
+		F3B26FC02C671959007CAB21 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FBF2C671959007CAB21 /* BarcodeScannerView.swift */; };
+		F3B26FC22C672643007CAB21 /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FC12C672643007CAB21 /* DataRepository.swift */; };
+		F3B26FC52C6726C6007CAB21 /* Readable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FC42C6726C6007CAB21 /* Readable.swift */; };
+		F3B26FCC2C6750CC007CAB21 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FCB2C6750CC007CAB21 /* OnBoardingView.swift */; };
+		F3B26FD02C675136007CAB21 /* ProgressState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FCF2C675136007CAB21 /* ProgressState.swift */; };
+		F3B26FD62C677A0E007CAB21 /* Urbanist-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3B26FD52C677923007CAB21 /* Urbanist-Bold.ttf */; };
+		F3B26FD72C677A0E007CAB21 /* Urbanist-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3B26FD42C677923007CAB21 /* Urbanist-SemiBold.ttf */; };
+		F3B26FD92C677CDF007CAB21 /* CustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FD82C677CDF007CAB21 /* CustomPicker.swift */; };
+		F3B26FDB2C6791B1007CAB21 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FDA2C6791B1007CAB21 /* MainView.swift */; };
+		F3B26FDD2C67924C007CAB21 /* Rambla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3B26FDC2C679244007CAB21 /* Rambla-Bold.ttf */; };
+		F3B26FDF2C679A82007CAB21 /* StoreKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FDE2C679A82007CAB21 /* StoreKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,11 +37,21 @@
 		F3B26FA02C65ED11007CAB21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F3B26FAC2C65F6DF007CAB21 /* MogoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MogoModel.swift; sourceTree = "<group>"; };
 		F3B26FB22C65F8AC007CAB21 /* BreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreaView.swift; sourceTree = "<group>"; };
-		F3B26FB42C65F8B7007CAB21 /* BonoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonoView.swift; sourceTree = "<group>"; };
 		F3B26FB72C65F8FB007CAB21 /* IOView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOView.swift; sourceTree = "<group>"; };
-		F3B26FB92C65F905007CAB21 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		F3B26FBB2C65F936007CAB21 /* ShapeStyle+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Color.swift"; sourceTree = "<group>"; };
 		F3B26FBD2C65F950007CAB21 /* View+MogoFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+MogoFont.swift"; sourceTree = "<group>"; };
+		F3B26FBF2C671959007CAB21 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
+		F3B26FC12C672643007CAB21 /* DataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepository.swift; sourceTree = "<group>"; };
+		F3B26FC42C6726C6007CAB21 /* Readable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readable.swift; sourceTree = "<group>"; };
+		F3B26FCB2C6750CC007CAB21 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		F3B26FCF2C675136007CAB21 /* ProgressState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressState.swift; sourceTree = "<group>"; };
+		F3B26FD32C677839007CAB21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F3B26FD42C677923007CAB21 /* Urbanist-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-SemiBold.ttf"; sourceTree = "<group>"; };
+		F3B26FD52C677923007CAB21 /* Urbanist-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Bold.ttf"; sourceTree = "<group>"; };
+		F3B26FD82C677CDF007CAB21 /* CustomPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.swift; sourceTree = "<group>"; };
+		F3B26FDA2C6791B1007CAB21 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F3B26FDC2C679244007CAB21 /* Rambla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rambla-Bold.ttf"; path = "../../../../../../Downloads/Rambla/Rambla-Bold.ttf"; sourceTree = "<group>"; };
+		F3B26FDE2C679A82007CAB21 /* StoreKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +84,8 @@
 		F3B26F982C65ED10007CAB21 /* MOGO */ = {
 			isa = PBXGroup;
 			children = (
+				F3B26FD32C677839007CAB21 /* Info.plist */,
+				F3B26FD12C6776CF007CAB21 /* Font */,
 				F3B26FA92C65F6BA007CAB21 /* App */,
 				F3B26FAB2C65F6C1007CAB21 /* Views */,
 				F3B26FAF2C65F875007CAB21 /* DesignSystem */,
@@ -96,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				F3B26FAC2C65F6DF007CAB21 /* MogoModel.swift */,
+				F3B26FCF2C675136007CAB21 /* ProgressState.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -113,7 +135,10 @@
 		F3B26FAE2C65F79A007CAB21 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				F3B26FB92C65F905007CAB21 /* MockData.swift */,
+				F3B26FC62C672839007CAB21 /* Mock */,
+				F3B26FC32C6726B7007CAB21 /* Readable */,
+				F3B26FC12C672643007CAB21 /* DataRepository.swift */,
+				F3B26FDE2C679A82007CAB21 /* StoreKey.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -131,7 +156,10 @@
 			isa = PBXGroup;
 			children = (
 				F3B26F9B2C65ED10007CAB21 /* ContentView.swift */,
-				F3B26FB42C65F8B7007CAB21 /* BonoView.swift */,
+				F3B26FBF2C671959007CAB21 /* BarcodeScannerView.swift */,
+				F3B26FCB2C6750CC007CAB21 /* OnBoardingView.swift */,
+				F3B26FD82C677CDF007CAB21 /* CustomPicker.swift */,
+				F3B26FDA2C6791B1007CAB21 /* MainView.swift */,
 			);
 			path = Bono;
 			sourceTree = "<group>";
@@ -150,6 +178,31 @@
 				F3B26FB72C65F8FB007CAB21 /* IOView.swift */,
 			);
 			path = IO;
+			sourceTree = "<group>";
+		};
+		F3B26FC32C6726B7007CAB21 /* Readable */ = {
+			isa = PBXGroup;
+			children = (
+				F3B26FC42C6726C6007CAB21 /* Readable.swift */,
+			);
+			path = Readable;
+			sourceTree = "<group>";
+		};
+		F3B26FC62C672839007CAB21 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		F3B26FD12C6776CF007CAB21 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F3B26FDC2C679244007CAB21 /* Rambla-Bold.ttf */,
+				F3B26FD52C677923007CAB21 /* Urbanist-Bold.ttf */,
+				F3B26FD42C677923007CAB21 /* Urbanist-SemiBold.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +263,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B26FDD2C67924C007CAB21 /* Rambla-Bold.ttf in Resources */,
+				F3B26FD62C677A0E007CAB21 /* Urbanist-Bold.ttf in Resources */,
+				F3B26FD72C677A0E007CAB21 /* Urbanist-SemiBold.ttf in Resources */,
 				F3B26FA12C65ED11007CAB21 /* Preview Assets.xcassets in Resources */,
 				F3B26F9E2C65ED11007CAB21 /* Assets.xcassets in Resources */,
 			);
@@ -224,13 +280,19 @@
 			files = (
 				F3B26F9C2C65ED10007CAB21 /* ContentView.swift in Sources */,
 				F3B26FBC2C65F936007CAB21 /* ShapeStyle+Color.swift in Sources */,
+				F3B26FC22C672643007CAB21 /* DataRepository.swift in Sources */,
 				F3B26F9A2C65ED10007CAB21 /* AppView.swift in Sources */,
 				F3B26FB82C65F8FB007CAB21 /* IOView.swift in Sources */,
 				F3B26FB32C65F8AC007CAB21 /* BreaView.swift in Sources */,
-				F3B26FB52C65F8B7007CAB21 /* BonoView.swift in Sources */,
-				F3B26FBA2C65F905007CAB21 /* MockData.swift in Sources */,
+				F3B26FD92C677CDF007CAB21 /* CustomPicker.swift in Sources */,
+				F3B26FD02C675136007CAB21 /* ProgressState.swift in Sources */,
+				F3B26FDB2C6791B1007CAB21 /* MainView.swift in Sources */,
+				F3B26FC02C671959007CAB21 /* BarcodeScannerView.swift in Sources */,
+				F3B26FDF2C679A82007CAB21 /* StoreKey.swift in Sources */,
+				F3B26FC52C6726C6007CAB21 /* Readable.swift in Sources */,
 				F3B26FBE2C65F950007CAB21 /* View+MogoFont.swift in Sources */,
 				F3B26FAD2C65F6DF007CAB21 /* MogoModel.swift in Sources */,
+				F3B26FCC2C6750CC007CAB21 /* OnBoardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +429,8 @@
 				DEVELOPMENT_TEAM = QVX6L7QGV2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MOGO/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "바코드를 통해 식품 정보를 판별합니다";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -381,6 +445,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -399,6 +464,8 @@
 				DEVELOPMENT_TEAM = QVX6L7QGV2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MOGO/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "바코드를 통해 식품 정보를 판별합니다";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -413,6 +480,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

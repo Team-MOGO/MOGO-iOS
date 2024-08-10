@@ -9,24 +9,15 @@ import SwiftUI
 
 @main
 struct AppView: App {
-  @Environment(\.scenePhase) var scenePhase
+  @AppStorage(StoreKey.isAppeared) var isAppeared: Bool = false
   
   var body: some Scene {
     WindowGroup {
-      
-      ContentView()
-        .onChange(of: scenePhase) { oldValue, newValue in
-          switch newValue {
-          case .active:
-            print("켜짐")
-          case .inactive:
-            print("꺼짐")
-          case .background:
-            print("백그라운드에서 돌아가는 중")
-          @unknown default:
-            print("에러")
-          }
-        }
+      if !isAppeared {
+        OnBoardingView()
+      } else {
+        MainView()
+      }
     }
   }
 }

@@ -9,16 +9,36 @@ import SwiftUI
 import UIKit
 
 public enum MogoFontType {
-  // MARK: - 텍스트 전용 폰트타입
-  case textH1
+  case urbanistSemiBold18
+  
+  case urbanistBold18
+  case urbanistBold26
+  
+  case ramblaBold16
+  
+  static let urbanistboldFont: String = "Urbanist-Bold"
+  static let urbanistSemiboldFont: String = "Urbanist-SemiBold"
+  static let ramblaBoldFont: String = "Rambla-Bold"
 }
 
 extension View {
   func mogoFont(_ fontStyle: MogoFontType) -> some View {
     switch fontStyle {
-    case .textH1:
+    case .urbanistBold26:
       return self
-        .font(.custom("", size: 10))
+        .font(.custom(MogoFontType.urbanistboldFont, size: 26))
+      
+    case .urbanistBold18:
+      return self
+        .font(.custom(MogoFontType.urbanistboldFont, size: 18))
+      
+    case .urbanistSemiBold18:
+      return self
+        .font(.custom(MogoFontType.urbanistSemiboldFont, size: 18))
+      
+    case .ramblaBold16:
+      return self
+        .font(.custom(MogoFontType.ramblaBoldFont, size: 16))
     }
   }
 }
