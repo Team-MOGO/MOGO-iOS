@@ -39,7 +39,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6EFF0B5C2C67A1EC00DB80DC /* Rambla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rambla-Bold.ttf"; sourceTree = "<group>"; };
 		6EFF0B5E2C67A1FF00DB80DC /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		6EFF0B602C67BC5F00DB80DC /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
 		6EFF0B622C67BC8D00DB80DC /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
@@ -89,7 +88,6 @@
 			children = (
 				F3B26F982C65ED10007CAB21 /* MOGO */,
 				F3B26F972C65ED10007CAB21 /* Products */,
-				F3B26FE92C67F319007CAB21 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,14 +230,6 @@
 				F3B26FD42C677923007CAB21 /* Urbanist-SemiBold.ttf */,
 			);
 			path = Font;
-			sourceTree = "<group>";
-		};
-		F3B26FE92C67F319007CAB21 /* Recovered References */ = {
-			isa = PBXGroup;
-			children = (
-				6EFF0B5C2C67A1EC00DB80DC /* Rambla-Bold.ttf */,
-			);
-			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -472,7 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MOGO/Preview Content\"";
-				DEVELOPMENT_TEAM = QVX6L7QGV2;
+				DEVELOPMENT_TEAM = T4KM2JP3RN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MOGO/Info.plist;
@@ -507,7 +497,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MOGO/Preview Content\"";
-				DEVELOPMENT_TEAM = QVX6L7QGV2;
+				DEVELOPMENT_TEAM = T4KM2JP3RN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MOGO/Info.plist;

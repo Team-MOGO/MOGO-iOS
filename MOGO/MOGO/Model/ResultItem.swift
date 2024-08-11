@@ -81,7 +81,7 @@ extension ResultItem {
                cause: "Balanced nutrients", idealAmount: 2000, actualAmount: 45,
                description: "Given that this product is low in calories, fat, sodium, and sugar, and provides balanced nutrients suitable for pregnant women, it can be safely consumed. There are no particular ingredients that require caution.",
                dailyRecommendedIntake: "less than 2~3",
-               nutritionFacts: NutritionFacts(calories: 0, nutritions: [
+               nutritionFacts: NutritionFacts(calories: 45, nutritions: [
                 Nutrition(name: "Carbohydrate", amount: "5.4g", level: "Ideal"), // 탄수화물
                 Nutrition(name: "Protein", amount: "1.2g", level: "Ideal"), // 단백질
                 Nutrition(name: "Fat", amount: "2.3g", level: "Ideal"), // 지방
@@ -96,7 +96,7 @@ extension ResultItem {
                cause: "Balanced nutrients", idealAmount: 2350, actualAmount: 45,
                description: "Given that this product is low in calories, fat, sodium, and sugar, and provides balanced nutrients suitable for pregnant women, it can be safely consumed. There are no particular ingredients that require caution.",
                dailyRecommendedIntake: "less than 2~3",
-               nutritionFacts: NutritionFacts(calories: 0, nutritions: [
+               nutritionFacts: NutritionFacts(calories: 45, nutritions: [
                 Nutrition(name: "Carbohydrate", amount: "5.4g", level: "Ideal"), // 탄수화물
                 Nutrition(name: "Protein", amount: "1.2g", level: "Ideal"), // 단백질
                 Nutrition(name: "Fat", amount: "2.3g", level: "Ideal"), // 지방
@@ -111,7 +111,7 @@ extension ResultItem {
                cause: "Balanced nutrients", idealAmount: 2450, actualAmount: 45,
                description: "Given that this product is low in calories, fat, sodium, and sugar, and provides balanced nutrients suitable for pregnant women, it can be safely consumed. There are no particular ingredients that require caution.",
                dailyRecommendedIntake: "less than 2~3",
-               nutritionFacts: NutritionFacts(calories: 0, nutritions: [
+               nutritionFacts: NutritionFacts(calories: 45, nutritions: [
                 Nutrition(name: "Carbohydrate", amount: "5.4g", level: "Ideal"), // 탄수화물
                 Nutrition(name: "Protein", amount: "1.2g", level: "Ideal"), // 단백질
                 Nutrition(name: "Fat", amount: "2.3g", level: "Ideal"), // 지방

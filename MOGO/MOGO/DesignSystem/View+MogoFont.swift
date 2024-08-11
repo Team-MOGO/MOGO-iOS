@@ -11,6 +11,7 @@ import UIKit
 public enum MogoFontType {
   case urbanistMedium16
   
+  case urbanistSemiBold14
   case urbanistSemiBold18
   
   case urbanistBold17
@@ -83,6 +84,10 @@ extension View {
     case .urbanistBold14:
       return self
         .font(.custom(MogoFontType.urbanistboldFont, size: 14))
+      
+    case .urbanistSemiBold14:
+      return self
+        .font(.custom(MogoFontType.urbanistSemiboldFont, size: 14))
       
     case .urbanistSemiBold18:
       return self

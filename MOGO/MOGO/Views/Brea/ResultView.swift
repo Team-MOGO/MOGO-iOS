@@ -8,12 +8,25 @@
 import SwiftUI
 
 struct ResultView: View {
+  @AppStorage(StoreKey.pregnantDays) var pregnantDays: Int = 0
   let selectedItem: ResultItem
+  @State var isClosed: Bool = false
   
   var body: some View {
-    
     ScrollView {
       VStack(spacing: 0) {
+        HStack() {
+          Spacer()
+          Button(action: {
+            self.isClosed.toggle()
+          }, label: {
+            Image("close")
+              .resizable()
+              .frame(width: 16, height: 16)
+          })
+        }
+        .padding(.trailing, 20)
+        
         HStack(spacing: 0) {
           riskLevelImage(for: selectedItem.riskLevel)
             .resizable()
@@ -36,8 +49,8 @@ struct ResultView: View {
                   .foregroundStyle(riskLevelColor(for: selectedItem.riskLevel))
               }
               
-              Text("at week \(selectedItem.pregnancyStage) pregnancy")
-                .mogoFont(.urbanistBold20)
+              Text("at week \(BabyViewState.getWeek(pregnantdays: pregnantDays)) pregnancy")
+                .mogoFont(.urbanistBold22)
                 .lineLimit(1)
                 .frame(maxWidth: .infinity, alignment: .leading)
             }
@@ -66,7 +79,7 @@ struct ResultView: View {
               .frame(width: 2, height: 35)
               .padding(.bottom, 9)
             Text("Ideal daily amount")
-              .mogoFont(.pretendardMedium12)
+              .mogoFont(.urbanistSemiBold14)
           }
           
           VStack(spacing: 0) {
@@ -74,6 +87,7 @@ struct ResultView: View {
             ZStack(alignment: .leading) {
               GeometryReader(content: { geometry in
                 RoundedRectangle(cornerRadius: 10)
+                  .fill(Color(hex: "F7F0EE"))
                   .frame(height: 16)
                 
                 RoundedRectangle(cornerRadius: 10)
@@ -133,7 +147,7 @@ struct ResultView: View {
           Spacer()
         }
         .padding(.horizontal, 21)
-        .padding()
+        .padding(.bottom, 12)
         
         
         ZStack(alignment: .center) {
@@ -182,6 +196,12 @@ struct ResultView: View {
         
       }
       .padding(.top, 20)
+      .fullScreenCover(isPresented: $isClosed) {
+        MainView()
+      }
+      .transaction { transaction in
+        transaction.disablesAnimations = true
+      }
       
     }
     .ignoresSafeArea(edges: .bottom)
@@ -205,11 +225,11 @@ extension ResultView {
   private func riskLevelColor(for riskLevel: String) -> Color {
     switch riskLevel {
     case "dangerous":
-      return Color(hex: "F2414A")
+      return .mogoRedPoint
     case "recommended":
-      return Color(hex: "2DBD8F")
+      return .mogoGreenPoint
     default:
-      return Color(hex: "FFA800")
+      return .mogoYellowPoint
     }
   }
   
@@ -228,11 +248,11 @@ extension ResultView {
   private func riskLevelBackgroundColor(for riskLevel: String) -> Color {
     switch riskLevel {
     case "dangerous":
-      return Color(hex: "ffe7df")
+      return .mogoRedBg
     case "recommended":
-      return Color(hex: "EFF6F1")
+      return .mogoGreenBg
     default:
-      return Color(hex: "FFF6CD")
+      return .mogoYellowBg
     }
   }
   
@@ -242,14 +262,14 @@ extension ResultView {
     
     switch nutrition.level {
     case "Excessive":
-      levelColor = Color(hex: "ff2c2c")
-      backgroundColor = Color(hex: "ffe7df")
+      levelColor = .mogoRedPoint
+      backgroundColor = .mogoRedBg
     case "Ideal":
-      levelColor = Color(hex: "2DBD8F")
-      backgroundColor = Color(hex: "EFF6F1")
+      levelColor = .mogoGreenPoint
+      backgroundColor = .mogoGreenBg
     default:
-      levelColor = Color(hex: "FFA800")
-      backgroundColor = Color(hex: "FFF6CD")
+      levelColor = .mogoYellowPoint
+      backgroundColor = .mogoYellowBg
     }
     
     return Text(nutrition.level)

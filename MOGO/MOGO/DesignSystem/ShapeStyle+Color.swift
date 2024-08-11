@@ -13,10 +13,18 @@ extension ShapeStyle where Self == Color {
   static var mogoGray1: Color { Color(hex: "525252") }
   static var mogoGray2: Color { Color(hex: "898989") }
   static var mogoGray3: Color { Color(hex: "A7A7A7") }
+  static var mogoGray4: Color { Color(hex: "383838")}
   
   static var mogoPoint: Color { Color(hex: "87544D") } 
   static var mogoSub1: Color { Color(hex: "E7D5CE") }
   static var mogoSub2: Color { Color(hex: "6F605C") }
+  
+  static var mogoYellowBg: Color { Color(hex: "FFF6CD")}
+  static var mogoYellowPoint: Color { Color(hex: "FFA800")}
+  static var mogoGreenBg: Color { Color(hex: "EFF6F1")}
+  static var mogoGreenPoint: Color { Color(hex: "2DBD8F")}
+  static var mogoRedBg: Color { Color(hex: "FFE7DF")}
+  static var mogoRedPoint: Color { Color(hex: "F2414A")}
   
   static var mogoPickerBackground: Color { Color(hex: "883B28").opacity(0.8) }
 }
