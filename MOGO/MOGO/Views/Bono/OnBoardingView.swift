@@ -30,7 +30,7 @@ struct OnBoardingView: View {
           Text("Weeks")
             .mogoFont(.urbanistSemiBold18)
             .foregroundStyle(.mogoGray1)
-
+          
           CustomPicker(
             data: (0..<40).map{ String($0) },
             selection: $selectedWeek
@@ -66,18 +66,9 @@ struct OnBoardingView: View {
             .padding(.horizontal, 20)
             .frame(height: 52)
             .overlay {
-              HStack {
-                Text("Get Started")
-                  .mogoFont(.urbanistBold18)
-                  .foregroundStyle(.white)
-                
-                Image(systemName: "arrow.forward")
-                  .resizable()
-                  .bold()
-                  .foregroundColor(.white)
-                  .scaledToFit()
-                  .frame(width: 15)
-              }
+              Text("Get Started")
+                .mogoFont(.urbanistBold18)
+                .foregroundStyle(.white)
             }
         }
       )
