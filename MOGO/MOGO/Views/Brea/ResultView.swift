@@ -74,15 +74,7 @@ struct ResultView: View {
         
         if selectedItem.productCode != 8801021229423 {
           ZStack(alignment: .center) {
-            VStack(spacing: 0) {
-              RoundedRectangle(cornerRadius: 4)
-                .fill(Color(hex: "C6C6C6"))
-                .frame(width: 2, height: 35)
-                .padding(.bottom, 9)
-              Text("Ideal daily amount")
-                .mogoFont(.urbanistSemiBold14)
-            }
-            
+
             VStack(spacing: 0) {
               Spacer()
               ZStack(alignment: .leading) {
@@ -90,6 +82,17 @@ struct ResultView: View {
                   RoundedRectangle(cornerRadius: 10)
                     .fill(Color(hex: "F7F0EE"))
                     .frame(height: 16)
+                    .overlay(alignment: .top) {
+                      VStack(spacing: 0) {
+                        RoundedRectangle(cornerRadius: 4)
+                          .fill(Color(hex: "C6C6C6"))
+                          .frame(width: 2, height: 35)
+                          .padding(.bottom, 9)
+                        Text("Ideal daily amount")
+                          .mogoFont(.urbanistSemiBold14)
+                      }
+                      .position(x: geometry.size.width/2, y: 20)
+                    }
                   
                   RoundedRectangle(cornerRadius: 10)
                     .fill(
@@ -108,8 +111,8 @@ struct ResultView: View {
               Spacer()
             }
           }
-          .padding(.top, 34)
-          .padding(.bottom, 24)
+          .padding(.top, 37)
+          .padding(.bottom, 59)
           .background(
             RoundedRectangle(cornerRadius: 20)
               .fill(.white)
@@ -302,5 +305,5 @@ extension ResultView {
 
 
 #Preview {
-  ResultView(selectedItem: .dummy.first!)
+  ResultView(selectedItem: .dummy[2])
 }

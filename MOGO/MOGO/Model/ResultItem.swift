@@ -49,7 +49,7 @@ extension ResultItem {
                ])),
     // TOP 마스터 라떼 - 하얀색
     ResultItem(productCode: 8801037087543, pregnancyStage: 0,
-               foodName: "Maxim TOP Master Latte", riskLevel: "alright",
+               foodName: "Maxim T.O.P Master Latte", riskLevel: "alright",
                cause: "Slightly high in caffeine", idealAmount: 300, actualAmount: 99,
                description: "A caffeine content of 99mg is considered somewhat high for pregnant women. It generally accounts for about 33-50% of the recommended daily limit, which is around 200-300mg per day. With additional sources of caffeine (e.g., coffee, tea, chocolate), there is a risk of exceeding the daily recommended intake.",
                dailyRecommendedIntake: "less than 3",
@@ -63,7 +63,7 @@ extension ResultItem {
                ])),
     // TOP 마스터 라떼 - 검은색
     ResultItem(productCode: 8801037001730, pregnancyStage: 0,
-               foodName: "Maxim TOP Smoky Black", riskLevel: "alright",
+               foodName: "Maxim T.O.P Smoky Black", riskLevel: "alright",
                cause: "Slightly high in caffeine", idealAmount: 300, actualAmount: 99,
                description: "A caffeine content of 124mg is considered somewhat high for pregnant women. It generally accounts for about 41-62% of the recommended daily limit, which is around 200-300mg per day. With additional sources of caffeine (e.g., coffee, tea, chocolate), there is a risk of exceeding the daily recommended intake.",
                dailyRecommendedIntake: "less than 2",
