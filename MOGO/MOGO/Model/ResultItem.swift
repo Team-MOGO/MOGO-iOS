@@ -45,7 +45,7 @@ extension ResultItem {
                 Nutrition(name: "Fat", amount: "3.67g", level: "Ideal"),
                 Nutrition(name: "Sugar", amount: "30g", level: "Excessive"),
                 Nutrition(name: "Sodium", amount: "450mg", level: "Careful"),
-                Nutrition(name: "Vitamin A", amount: "583.33㎍ RAE", level: "Excessive")
+                Nutrition(name: "Vitatmin A", amount: "583.33㎍ RAE", level: "Excessive")
                ])),
     // TOP 마스터 라떼 - 하얀색
     ResultItem(productCode: 8801037087543, pregnancyStage: 0,
@@ -74,7 +74,6 @@ extension ResultItem {
                 Nutrition(name: "Sugar", amount: "0g", level: "Ideal"), // 당
                 Nutrition(name: "Sodium", amount: "25mg", level: "Ideal"), // 나트륨
                ])),
-    
     // 아몬드브리즈 오리지널 - 초기
     ResultItem(productCode: 8801121763933, pregnancyStage: 1,
                foodName: "Almond Breeze Original", riskLevel: "recommended",
@@ -89,7 +88,6 @@ extension ResultItem {
                 Nutrition(name: "Sodium", amount: "115mg", level: "Ideal"), // 나트륨
                 Nutrition(name: "Calcium", amount: "220g", level: "Ideal") // 포화지방산
                ])),
-    
     // 아몬드브리즈 오리지널 - 중기
     ResultItem(productCode: 8801121763933, pregnancyStage: 2,
                foodName: "Almond Breeze Original", riskLevel: "recommended",
@@ -104,14 +102,13 @@ extension ResultItem {
                 Nutrition(name: "Sodium", amount: "115mg", level: "Ideal"), // 나트륨
                 Nutrition(name: "Calcium", amount: "220g", level: "Ideal") // 포화지방산
                ])),
-    
     // 아몬드브리즈 오리지널 - 후기
     ResultItem(productCode: 8801121763933, pregnancyStage: 3,
                foodName: "Almond Breeze Original", riskLevel: "recommended",
                cause: "Balanced nutrients", idealAmount: 2450, actualAmount: 45,
                description: "Given that this product is low in calories, fat, sodium, and sugar, and provides balanced nutrients suitable for pregnant women, it can be safely consumed. There are no particular ingredients that require caution.",
                dailyRecommendedIntake: "less than 2~3",
-               nutritionFacts: NutritionFacts(calories: 45, nutritions: [
+               nutritionFacts: NutritionFacts(calories: 0, nutritions: [
                 Nutrition(name: "Carbohydrate", amount: "5.4g", level: "Ideal"), // 탄수화물
                 Nutrition(name: "Protein", amount: "1.2g", level: "Ideal"), // 단백질
                 Nutrition(name: "Fat", amount: "2.3g", level: "Ideal"), // 지방
@@ -119,7 +116,6 @@ extension ResultItem {
                 Nutrition(name: "Sodium", amount: "115mg", level: "Ideal"), // 나트륨
                 Nutrition(name: "Calcium", amount: "220g", level: "Ideal") // 포화지방산
                ])),
-    
     // 그릭데이 시그니처 - 초기
     ResultItem(productCode: 8809762120092, pregnancyStage: 1,
                foodName: "Greekday Signature", riskLevel: "recommended",
@@ -133,7 +129,6 @@ extension ResultItem {
                 Nutrition(name: "Sodium", amount: "29.87mg", level: "Ideal"), // 나트륨
                 Nutrition(name: "Cholesterol", amount: "35mg", level: "Careful") // 콜레스테롤
                ])),
-    
     // 그릭데이 시그니처 - 중기
     ResultItem(productCode: 8809762120092, pregnancyStage: 2,
                foodName: "Greekday Signature", riskLevel: "recommended",
@@ -147,7 +142,6 @@ extension ResultItem {
                 Nutrition(name: "Sodium", amount: "29.87mg", level: "Ideal"), // 나트륨
                 Nutrition(name: "Cholesterol", amount: "35mg", level: "Careful") // 콜레스테롤
                ])),
-    
     // 그릭데이 시그니처 - 후기
     ResultItem(productCode: 8809762120092, pregnancyStage: 3,
                foodName: "Greekday Signature", riskLevel: "recommended",
@@ -160,6 +154,19 @@ extension ResultItem {
                 Nutrition(name: "Sugar", amount: "1.86g", level: "Ideal"), // 당
                 Nutrition(name: "Sodium", amount: "29.87mg", level: "Ideal"), // 나트륨
                 Nutrition(name: "Cholesterol", amount: "35mg", level: "Careful") // 콜레스테롤
-               ]))
+               ])),
+    // 버드 와이저 제로
+    ResultItem(productCode: 8801021229423, pregnancyStage: 0,
+               foodName: "Budweiser Zero", riskLevel: "dangerous",
+               cause: "May contain alcohol", idealAmount: 0, actualAmount: 0,
+               description: "Non-alcoholic beer may contain some alcohol. During pregnancy, even small amounts can seriously affect the baby's brain and nervous system development, potentially causing Fetal Alcohol Syndrome (FAS), intellectual disabilities, and growth delays. It also raises the risk of miscarriage, preterm birth, low birth weight, and congenital defects.",
+               dailyRecommendedIntake: "None",
+               nutritionFacts: NutritionFacts(calories: 70, nutritions: [
+                Nutrition(name: "Carbohydrate", amount: "16.5g", level: "Ideal"), // 탄수화물
+                Nutrition(name: "Protein", amount: "1g", level: "Ideal"), // 단백질
+                Nutrition(name: "Fat", amount: "0g", level: "Ideal"), // 지방
+                Nutrition(name: "Sugar", amount: "0g", level: "Ideal"), // 당류
+                Nutrition(name: "Sodium", amount: "10mg", level: "Ideal"), // 나트륨
+               ])),
   ]
 }

@@ -72,50 +72,52 @@ struct ResultView: View {
         .padding(.horizontal, 21)
         .padding(.bottom, 12)
         
-        ZStack(alignment: .center) {
-          VStack(spacing: 0) {
-            RoundedRectangle(cornerRadius: 4)
-              .fill(Color(hex: "C6C6C6"))
-              .frame(width: 2, height: 35)
-              .padding(.bottom, 9)
-            Text("Ideal daily amount")
-              .mogoFont(.urbanistSemiBold14)
-          }
-          
-          VStack(spacing: 0) {
-            Spacer()
-            ZStack(alignment: .leading) {
-              GeometryReader(content: { geometry in
-                RoundedRectangle(cornerRadius: 10)
-                  .fill(Color(hex: "F7F0EE"))
-                  .frame(height: 16)
-                
-                RoundedRectangle(cornerRadius: 10)
-                  .fill(
-                    LinearGradient(
-                      colors: [.mogoSub1, .mogoPoint],
-                      startPoint: .leading,
-                      endPoint: .trailing
-                    )
-                  )
-                  .frame(height: 16)
-                  .frame(width: geometry.size.width * calculateRatioOfGraph(width: geometry.size.width))
-              }
-              )
-              .padding(.horizontal, 22)
+        if selectedItem.productCode != 8801021229423 {
+          ZStack(alignment: .center) {
+            VStack(spacing: 0) {
+              RoundedRectangle(cornerRadius: 4)
+                .fill(Color(hex: "C6C6C6"))
+                .frame(width: 2, height: 35)
+                .padding(.bottom, 9)
+              Text("Ideal daily amount")
+                .mogoFont(.urbanistSemiBold14)
             }
-            Spacer()
+            
+            VStack(spacing: 0) {
+              Spacer()
+              ZStack(alignment: .leading) {
+                GeometryReader(content: { geometry in
+                  RoundedRectangle(cornerRadius: 10)
+                    .fill(Color(hex: "F7F0EE"))
+                    .frame(height: 16)
+                  
+                  RoundedRectangle(cornerRadius: 10)
+                    .fill(
+                      LinearGradient(
+                        colors: [.mogoSub1, .mogoPoint],
+                        startPoint: .leading,
+                        endPoint: .trailing
+                      )
+                    )
+                    .frame(height: 16)
+                    .frame(width: geometry.size.width * calculateRatioOfGraph(width: geometry.size.width))
+                }
+                )
+                .padding(.horizontal, 22)
+              }
+              Spacer()
+            }
           }
+          .padding(.top, 34)
+          .padding(.bottom, 24)
+          .background(
+            RoundedRectangle(cornerRadius: 20)
+              .fill(.white)
+          )
+          .padding(.horizontal, 19)
+          .padding(.bottom, 17)
         }
-        .padding(.top, 34)
-        .padding(.bottom, 24)
-        .background(
-          RoundedRectangle(cornerRadius: 20)
-            .fill(.white)
-        )
-        .padding(.horizontal, 19)
-        .padding(.bottom, 17)
-        
+          
         Text(selectedItem.description)
           .mogoFont(.pretendardRegular16)
           .padding(.horizontal, 20)
