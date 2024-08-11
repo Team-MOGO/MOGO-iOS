@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		514151DB2C684DA300E96862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 514151DA2C684DA300E96862 /* LaunchScreen.storyboard */; };
 		6EFF0B5F2C67A1FF00DB80DC /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF0B5E2C67A1FF00DB80DC /* ResultView.swift */; };
 		6EFF0B612C67BC5F00DB80DC /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6EFF0B602C67BC5F00DB80DC /* Pretendard-Medium.otf */; };
 		6EFF0B632C67BC8D00DB80DC /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6EFF0B622C67BC8D00DB80DC /* Pretendard-Regular.otf */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		514151DA2C684DA300E96862 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EFF0B5E2C67A1FF00DB80DC /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		6EFF0B602C67BC5F00DB80DC /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
 		6EFF0B622C67BC8D00DB80DC /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				F3B26FCB2C6750CC007CAB21 /* OnBoardingView.swift */,
 				F3B26FD82C677CDF007CAB21 /* CustomPicker.swift */,
 				F3B26FDA2C6791B1007CAB21 /* MainView.swift */,
+				514151DA2C684DA300E96862 /* LaunchScreen.storyboard */,
 			);
 			path = Bono;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				6EFF0B632C67BC8D00DB80DC /* Pretendard-Regular.otf in Resources */,
 				F3B26F9E2C65ED11007CAB21 /* Assets.xcassets in Resources */,
 				6EFF0B672C67C2D700DB80DC /* Pretendard-Bold.otf in Resources */,
+				514151DB2C684DA300E96862 /* LaunchScreen.storyboard in Resources */,
 				6EFF0B612C67BC5F00DB80DC /* Pretendard-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,6 +454,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -486,6 +491,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
