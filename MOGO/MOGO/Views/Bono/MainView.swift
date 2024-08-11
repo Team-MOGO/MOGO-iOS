@@ -140,6 +140,8 @@ struct MainView: View {
             }
             
             HStack {
+              Spacer()
+              
               Button(
                 action: {
                   isShowingScanner = false
@@ -158,8 +160,6 @@ struct MainView: View {
                     }
                 }
               )
-              
-              Spacer()
             }
             .padding(.all, 40)
             

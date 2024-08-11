@@ -45,7 +45,7 @@ extension ResultItem {
                 Nutrition(name: "Fat", amount: "3.67g", level: "Ideal"),
                 Nutrition(name: "Sugar", amount: "30g", level: "Excessive"),
                 Nutrition(name: "Sodium", amount: "450mg", level: "Careful"),
-                Nutrition(name: "Vitatmin A", amount: "583.33㎍ RAE", level: "Excessive")
+                Nutrition(name: "Vitamin A", amount: "583.33㎍ RAE", level: "Excessive")
                ])),
     // TOP 마스터 라떼 - 하얀색
     ResultItem(productCode: 8801037087543, pregnancyStage: 0,

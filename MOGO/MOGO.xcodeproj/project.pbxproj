@@ -17,9 +17,6 @@
 		F3B26F9C2C65ED10007CAB21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26F9B2C65ED10007CAB21 /* ContentView.swift */; };
 		F3B26F9E2C65ED11007CAB21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B26F9D2C65ED11007CAB21 /* Assets.xcassets */; };
 		F3B26FA12C65ED11007CAB21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B26FA02C65ED11007CAB21 /* Preview Assets.xcassets */; };
-		F3B26FAD2C65F6DF007CAB21 /* MogoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FAC2C65F6DF007CAB21 /* MogoModel.swift */; };
-		F3B26FB32C65F8AC007CAB21 /* BreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FB22C65F8AC007CAB21 /* BreaView.swift */; };
-		F3B26FB82C65F8FB007CAB21 /* IOView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FB72C65F8FB007CAB21 /* IOView.swift */; };
 		F3B26FBC2C65F936007CAB21 /* ShapeStyle+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FBB2C65F936007CAB21 /* ShapeStyle+Color.swift */; };
 		F3B26FBE2C65F950007CAB21 /* View+MogoFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FBD2C65F950007CAB21 /* View+MogoFont.swift */; };
 		F3B26FC02C671959007CAB21 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B26FBF2C671959007CAB21 /* BarcodeScannerView.swift */; };
@@ -50,9 +47,6 @@
 		F3B26F9B2C65ED10007CAB21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F3B26F9D2C65ED11007CAB21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3B26FA02C65ED11007CAB21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F3B26FAC2C65F6DF007CAB21 /* MogoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MogoModel.swift; sourceTree = "<group>"; };
-		F3B26FB22C65F8AC007CAB21 /* BreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreaView.swift; sourceTree = "<group>"; };
-		F3B26FB72C65F8FB007CAB21 /* IOView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOView.swift; sourceTree = "<group>"; };
 		F3B26FBB2C65F936007CAB21 /* ShapeStyle+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Color.swift"; sourceTree = "<group>"; };
 		F3B26FBD2C65F950007CAB21 /* View+MogoFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+MogoFont.swift"; sourceTree = "<group>"; };
 		F3B26FBF2C671959007CAB21 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
@@ -134,7 +128,6 @@
 		F3B26FAA2C65F6BD007CAB21 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F3B26FAC2C65F6DF007CAB21 /* MogoModel.swift */,
 				F3B26FE22C67B2D5007CAB21 /* BabyViewState.swift */,
 				F3B26FE72C67D3A4007CAB21 /* BabyTalk.swift */,
 				6EFF0B682C67CCCF00DB80DC /* ResultItem.swift */,
@@ -146,7 +139,6 @@
 		F3B26FAB2C65F6C1007CAB21 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F3B26FB62C65F8F0007CAB21 /* IO */,
 				F3B26FB12C65F89C007CAB21 /* Brea */,
 				F3B26FB02C65F894007CAB21 /* Bono */,
 			);
@@ -188,18 +180,9 @@
 		F3B26FB12C65F89C007CAB21 /* Brea */ = {
 			isa = PBXGroup;
 			children = (
-				F3B26FB22C65F8AC007CAB21 /* BreaView.swift */,
 				6EFF0B5E2C67A1FF00DB80DC /* ResultView.swift */,
 			);
 			path = Brea;
-			sourceTree = "<group>";
-		};
-		F3B26FB62C65F8F0007CAB21 /* IO */ = {
-			isa = PBXGroup;
-			children = (
-				F3B26FB72C65F8FB007CAB21 /* IOView.swift */,
-			);
-			path = IO;
 			sourceTree = "<group>";
 		};
 		F3B26FC32C6726B7007CAB21 /* Readable */ = {
@@ -315,16 +298,13 @@
 				F3B26FC22C672643007CAB21 /* DataRepository.swift in Sources */,
 				F3B26FE82C67D3A4007CAB21 /* BabyTalk.swift in Sources */,
 				F3B26F9A2C65ED10007CAB21 /* AppView.swift in Sources */,
-				F3B26FB82C65F8FB007CAB21 /* IOView.swift in Sources */,
 				6EFF0B5F2C67A1FF00DB80DC /* ResultView.swift in Sources */,
-				F3B26FB32C65F8AC007CAB21 /* BreaView.swift in Sources */,
 				F3B26FD92C677CDF007CAB21 /* CustomPicker.swift in Sources */,
 				F3B26FDB2C6791B1007CAB21 /* MainView.swift in Sources */,
 				F3B26FC02C671959007CAB21 /* BarcodeScannerView.swift in Sources */,
 				F3B26FDF2C679A82007CAB21 /* StoreKey.swift in Sources */,
 				F3B26FC52C6726C6007CAB21 /* Readable.swift in Sources */,
 				F3B26FBE2C65F950007CAB21 /* View+MogoFont.swift in Sources */,
-				F3B26FAD2C65F6DF007CAB21 /* MogoModel.swift in Sources */,
 				F3B26FE32C67B2D5007CAB21 /* BabyViewState.swift in Sources */,
 				F3B26FEC2C67F522007CAB21 /* PregnantState.swift in Sources */,
 				6EFF0B692C67CCCF00DB80DC /* ResultItem.swift in Sources */,
